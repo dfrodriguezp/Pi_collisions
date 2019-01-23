@@ -17,10 +17,6 @@ class Block {
     this.x += this.v;
   }
   
-  void setVel(float v) {
-    this.v = v;
-  }
-  
   void touchWall() {
     if (this.x <= 40) {
       this.v *= -1;
